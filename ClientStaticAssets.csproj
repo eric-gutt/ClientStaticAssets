@@ -11,6 +11,7 @@
     <Authors>eric-gutt</Authors>
     <Company>personal</Company>
      <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+     <RepositoryUrl>https://github.com/eric-gutt/ClientStaticAssets</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
