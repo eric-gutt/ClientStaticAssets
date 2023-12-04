@@ -1,13 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <Description>DotNet 7.0 Package demonstrating how to integrate third party tools with Razor Class Libraries.</Description>
+    <TargetFramework>net8.0</TargetFramework>
+    <Description>DotNet 8.0 Package demonstrating how to integrate third party tools with Razor Class Libraries.</Description>
     <IsPackable>true</IsPackable>
     <IsShipping>true</IsShipping>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <PackageId>ClientStaticAssets</PackageId>
-    <Version>1.0.0</Version>
+    <Version>2.0.0</Version>
     <Authors>eric-gutt</Authors>
     <Company>personal</Company>
      <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -20,7 +20,7 @@
       PackagePath="%(Identity)" />
     <Content Include="_._"
       Pack="true"
-      PackagePath="lib\net7.0\_._" />
+      PackagePath="lib\net8.0\_._" />
   </ItemGroup>
 
 </Project>

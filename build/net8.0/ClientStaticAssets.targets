@@ -70,7 +70,7 @@
       the ability to consume them from project references. As a workaround, we are using the Task directly on this package, to make sure this scenario works. In a future
       release we will address this by aligning DiscoverStaticWebAssets behavior with DefineStaticWebAssets to follow the same heuristics for determining the content root.
     -->
-        <DefineStaticWebAssets Condition="'$(TargetFramework)' == 'net7.0'"
+        <DefineStaticWebAssets Condition="'$(TargetFramework)' == 'net8.0'"
             CandidateAssets="@(_ClientAssetsBuildOutput)"
             SourceId="$(PackageId)"
             SourceType="Computed"
